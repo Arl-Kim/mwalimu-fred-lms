@@ -91,8 +91,8 @@ div.mt-3{
 }
 
 #loginbtn, .singlebutton > form > button{
-    background-color: #7ed348;
-    color: #01377d;
+    background-color: #26b170;
+    color: #01377d !important;
     border: 1px solid #01377d;
     padding-left: 40px;
     padding-right: 40px;
@@ -102,7 +102,8 @@ div.mt-3{
 }
 
 #loginbtn:hover, .singlebutton > form > button:hover{
-    background-color: #26b170;
+    background-color: #7ed348;
+    color: #01377d !important;
 }
 
 .login-form-forgotpassword{

@@ -1,0 +1,175 @@
+/*General Styles*/
+*:focus{
+    box-shadow: none !important;
+    border: 1px solid #01377d !important;
+    border-radius: 5px !important;
+    outline: none !important;
+}
+
+a:hover{
+    color: #009dd1 !important;
+    text-decoration: none !important;
+}
+
+a:focus{
+    background: none !important;
+    color: #009dd1 !important;
+}
+
+a.active{
+    color: #7ed348 !important;
+}
+
+div, button, select{
+    border-radius: 5px !important;
+}
+
+h1, h2, h3, h4, h5, p{
+    color: #01377d !important;
+}
+
+h6, button, input.btn{
+    color: #7ed348 !important;
+}
+
+
+/*Non-Logged In User Front Page Styles(Login Link)*/
+
+span.login, #id_cancel{
+    color: #01377d !important;
+}
+
+span.login > a{
+    font-weight: 700;
+}
+
+span.login > a:focus{
+    background: none !important;
+    color: #009dd1;
+}
+
+
+/*Burger Menu Button && Go To Top Link Styles*/
+button.nav-link, #goto-top-link > a{
+    background: #7ed348 !important;
+    color: #01377d;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out !important;
+}
+
+button.nav-link:hover, #goto-top-link > a:hover{
+    background: #26b170 !important;
+}
+
+button.nav-link:focus, #goto-top-link > a:focus{
+    color: #009dd1 !important;
+}
+
+
+/*Login Page Styles*/
+.login-logo #logo-image{
+    max-width: 100% !important;
+    max-width: 100% !important;
+}
+
+input{
+    border-color: #01377d !important;
+    border-radius: 5px !important;
+    color: #009dd1 !important;
+}
+
+div.mt-3{
+    color: #01377d !important;
+    font-size: 13px !important;
+}
+
+.login-form-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginbtn, .singlebutton > form > button{
+    background-color: #7ed348;
+    color: #01377d;
+    border: 1px solid #01377d;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px !important;
+    font-weight: 600;
+    transition: all 500ms ease-in-out;
+}
+
+#loginbtn:hover, .singlebutton > form > button:hover{
+    background-color: #26b170;
+}
+
+.login-form-forgotpassword{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn.btn-secondary{
+    display: none;
+}
+
+/*Logged In User Buttons(some) Styles*/
+button.dropdown-toggle{
+    color: #01377d !important;
+    background-color: #7ed348 !important;
+    border-color: #01377d !important;
+    border-radius: 5px;
+}
+
+button.dropdown-toggle:hover{
+    color: #7ed348 !important;
+    background-color: #01377d !important;
+}
+
+button.float-sm-right{
+    background: #7ed348 !important;
+    color: #01377d !important;
+    font-weight: 700 !important;
+}
+
+button.float-sm-right:hover{
+    color: #009dd1 !important;
+}
+
+/*Hide logged in user minilogo image beside bugger menu button*/
+span.logo > img{
+    display: none;
+}
+
+/*Calendar Table Styles*/
+th.header, td.day{
+    color: #01377d !important;
+}
+
+td.day:hover{
+    cursor: pointer !important;
+    box-shadow: 0px 0px 5px #7ed348 !important;
+    border-radius: 5px;
+}
+
+
+/*Font Awesome Styles*/
+.fa-bell, .fa-comment, .fa-question-circle, .fa-file-o, .fa-folder-o, .fa-th, .fa-list, .fa-folder, .fp-path-folder, .fa-download, .fa-upload{
+    color: #7ed348 !important;
+}
+
+.fa-bell:hover, .fa-comment:hover, .fa-question-circle:hover, .fa-file-o:hover, .fa-folder-o:hover, .fa-th:hover, .fa-list:hover, .fa-folder:hover, .fa-download:hover, .fa-upload:hover{
+    color: #26b170 !important;
+}
+
+
+/*Footer Styles*/
+#page-footer{
+    display: none;
+}
+
+.sitelink img, .logininfo, .tool_dataprivacy{
+    display: none;
+}

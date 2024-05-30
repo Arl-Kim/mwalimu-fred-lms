@@ -32,7 +32,7 @@ h6, button, input.btn{
     color: #26b170 !important;
 }
 
-.alert{
+.alert-info{
     background-color: #97e7f5;
     color: #26b170;
 }
@@ -200,8 +200,32 @@ img.fp-repo-icon{
     font-weight: 700;
 }
 
-ul.teachers li span{
-    color: #26b170;
+ul.teachers li span, .category-content span{
+    color: #26b170 !important;
+    transition: all 400ms ease-in-out;
+}
+
+.paging a, .ml-sm-auto a{
+    background: #26b170;
+    color: #01377d;
+}
+
+.paging a:hover, .ml-sm-auto a:hover{
+    background: #01377d;
+}
+
+.primary-navigation .moremenu ul li a{
+    color: #01377d !important;
+    font-weight: 600 !important;
+    transition: all 400ms ease-in-out;
+}
+
+.primary-navigation .moremenu ul li a:hover{
+    color: #26b170 !important;
+}
+
+.primary-navigation .moremenu ul li a.active{
+    color: #7ed348 !important;
 }
 
 /*Footer Styles*/

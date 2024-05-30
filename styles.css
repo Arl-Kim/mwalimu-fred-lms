@@ -139,6 +139,19 @@ button.float-sm-right:hover{
     color: #009dd1 !important;
 }
 
+#message-user-button span{
+    color: #26b170;
+    transition: all 300ms ease-in-out;
+}
+
+#message-user-button span:hover{
+    color: #7ed348;
+}
+
+#notice{
+    color: #009dd1;
+}
+
 /*Hide logged in user minilogo image beside bugger menu button*/
 span.logo > img{
     display: none;

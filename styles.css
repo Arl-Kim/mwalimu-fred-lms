@@ -236,6 +236,24 @@ span.logo > img{
     text-align: center;
 }
 
+.for-parents .enroll-steps{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.for-parents .enroll-steps .step{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
 /*Calendar Table Styles*/
 th.header, td.day{
     color: #01377d !important;

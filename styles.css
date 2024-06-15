@@ -335,6 +335,38 @@ span.logo > img{
     color: #01377d !important;
 }
 
+/*Donate Request Section Styles*/
+
+.donate-request{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.donate-request p{
+    text-align: center;
+}
+
+.donate-request a{
+    background: #01377d;
+    color: #7ed348 !important;
+    padding: 20px 40px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all 400ms ease-in-out;
+}
+
+.donate-request a:hover{
+    background: #7ed348;
+    color: #01377d !important;
+}
+
+.donate-request a i{
+    font-size: 30px;
+}
+
 /*Calendar Table Styles*/
 th.header, td.day{
     color: #01377d !important;

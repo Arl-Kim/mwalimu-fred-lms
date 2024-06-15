@@ -217,6 +217,11 @@ span.logo > img{
     text-align: center;
 }
 
+.about-section img{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 /*Calendar Table Styles*/
 th.header, td.day{
     color: #01377d !important;

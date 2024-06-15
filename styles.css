@@ -442,3 +442,32 @@ ul.teachers li span, .category-content span{
 .sitelink img, .logininfo, .tool_dataprivacy{
     display: none;
 }
+
+
+
+/***RESPONSIVE DESIGN BREAKPOINTS***/
+
+@media (max-width: 520px){
+    .introduction-section .intro-graphics{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .introduction-section h2,
+    .about-section h2,
+    .for-parents h2
+    {
+        text-align: center !important;
+    }
+
+    p{
+        text-align: justify !important;
+    }
+
+    .for-parents .enroll-steps .step p{
+        text-align: center !important;
+    }
+}

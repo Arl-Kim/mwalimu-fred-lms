@@ -161,6 +161,44 @@ span.logo > img{
     display: none;
 }
 
+.page-header-headings h1{
+    display: none;
+}
+
+/*Introduction Section Styles*/
+
+.section-item{
+    border: none !important;
+    outline: none !important;
+}
+
+.introduction-section .intro-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-section .intro-text h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.introduction-section .intro-text p{
+    text-align: center;
+}
+
+#toblue{
+    color: #009dd1;
+}
+
+#togreen{
+    color: #26b170;
+}
+
+#tolight{
+    color: #7ed348;
+}
+
 /*Calendar Table Styles*/
 th.header, td.day{
     color: #01377d !important;

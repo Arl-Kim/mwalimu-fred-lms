@@ -290,6 +290,51 @@ span.logo > img{
     color: #7ed348;
 }
 
+/*CTA Buttons Section Styles*/
+
+.cta-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cta-buttons .buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.cta-buttons .buttons a:nth-child(1){
+    background: #7ed348;
+    color: #01377d !important;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-radius: 10px;
+    transition: all 400ms ease-in-out;
+}
+
+.cta-buttons .buttons a:nth-child(1):hover{
+    background: #26b170;
+    color: #01377d !important;
+}
+
+.cta-buttons .buttons a:nth-child(2){
+    background: #26b170;
+    color: #01377d !important;
+    font-weight: 700;
+    padding: 20px 50px;
+    border-radius: 10px;
+    transition: all 400ms ease-in-out;
+}
+
+.cta-buttons .buttons a:nth-child(2):hover{
+    background: #7ed348;
+    color: #01377d !important;
+}
+
 /*Calendar Table Styles*/
 th.header, td.day{
     color: #01377d !important;

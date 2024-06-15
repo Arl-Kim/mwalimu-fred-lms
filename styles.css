@@ -251,7 +251,32 @@ span.logo > img{
     gap: 20px;
     justify-content: center;
     align-items: center;
+    padding: 20px;
     border-radius: 10px;
+}
+
+.for-parents .enroll-steps .step i{
+    font-size: 70px;
+}
+
+#bg_blue{
+    background: #01377d;
+    color: #7ed348;
+}
+
+#bg_green{
+    background: #26b170;
+    color: #01377d;
+}
+
+#bg_light{
+    background: #7ed348;
+    color: #01377d;
+}
+
+#bg_blligt{
+    background: #97e7f5;
+    color: #26b170;
 }
 
 /*Calendar Table Styles*/

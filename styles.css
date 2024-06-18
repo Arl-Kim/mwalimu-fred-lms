@@ -37,6 +37,10 @@ h6, button, input.btn{
     color: #26b170;
 }
 
+.edit-form-switch-form{
+    display: none !important;
+}
+
 /*Non-Logged In User Front Page Styles(Login Link)*/
 
 span.login > a{

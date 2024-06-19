@@ -408,6 +408,19 @@ span.logo > img{
     margin-bottom: 10px;
 }
 
+/*Activity Button*/
+
+.activity-information button{
+    background: #fff !important;
+    color: #26b170 !important;
+}
+
+
+.activity-information button:hover{
+    background: #7ed348 !important;
+    color: #01377d !important;
+}
+
 /*Calendar Table Styles*/
 th.header, td.day{
     color: #01377d !important;

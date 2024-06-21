@@ -380,13 +380,13 @@ span.logo > img{
     justify-content: center;
 }
 
-.nouns-content .nouns-examples{
+.nouns-examples{
     display: flex;
     flex-direction: column;
     align-items: left;
 }
 
-.nouns-content .nouns-examples .examples-list{
+.nouns-examples .examples-list{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 40px;
@@ -394,18 +394,28 @@ span.logo > img{
     align-items: center;
 }
 
-.nouns-content .nouns-examples .examples-list p{
+.nouns-examples .examples-list p{
     text-align: left !important;
 }
 
-.nouns-content .nouns-examples .examples-list ul{
+.nouns-examples .examples-list ul{
     list-style: none;
 }
 
-.nouns-content .nouns-examples .examples-list ul li:nth-child(1){
+.nouns-examples .examples-list ul li:nth-child(1){
     font-weight: 700;
     color: #7ed348;
     margin-bottom: 10px;
+}
+
+.common-proper{
+    margin-top: 20px;
+}
+
+.common-proper .examples-list{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 20px;
 }
 
 /*Activity Button*/

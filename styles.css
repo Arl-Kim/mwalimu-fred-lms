@@ -49,8 +49,8 @@ h6, button, input.btn{
     display: none !important;
 }
 
-.nav li:nth-child(2), 
-.nav li:nth-child(3){
+.primary-navigation .moremenu .nav li:nth-child(2), 
+.primary-navigation .moremenu .nav li:nth-child(3){
     display: none !important;
 }
 

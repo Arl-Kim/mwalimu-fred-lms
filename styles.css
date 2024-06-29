@@ -54,6 +54,10 @@ h6, button, input.btn{
     display: none !important;
 }
 
+.modal-footer a.d-inline{
+    display: none !important;
+}
+
 /*Non-Logged In User Front Page Styles(Login Link)*/
 
 span.login > a{

@@ -208,6 +208,18 @@ span.logo > img{
     font-weight: 700;
 }
 
+.w-100 .d-flex strong{
+    color: #01377d !important;
+}
+
+.d-flex textarea::placeholder{
+    color: #97e7f5 !important;
+}
+
+.d-flex textarea{
+    color: #01377d !important;
+}
+
 /*Introduction Section Styles*/
 
 .section-item{

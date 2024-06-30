@@ -186,6 +186,28 @@ span.logo > img{
     display: none;
 }
 
+/*ChatBox Styles*/
+
+.message:nth-child(odd){
+    background: #26b170 !important;
+    color: #01377d !important;
+}
+
+.message:nth-child(odd) .time{
+    color: #97e7f5 !important;
+    font-weight: 700;
+}
+
+.message:nth-child(even){
+    background: #97e7f5 !important;
+    color: #01377d !important;
+}
+
+.message:nth-child(even) .time{
+    color: #26b170 !important;
+    font-weight: 700;
+}
+
 /*Introduction Section Styles*/
 
 .section-item{

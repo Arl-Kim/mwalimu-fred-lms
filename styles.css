@@ -193,6 +193,10 @@ span.logo > img{
     color: #01377d !important;
 }
 
+.message:nth-child(odd) div h6{
+    color: #97e7f5 !important;
+}
+
 .message:nth-child(odd) .time{
     color: #97e7f5 !important;
     font-weight: 700;
@@ -224,6 +228,7 @@ span.logo > img{
 
 .notification-area .control-area .content .notification{
     background: transparent;
+    transition: all 400ms ease-in-out;
 }
 
 .notification-area .control-area .content .notification:hover{

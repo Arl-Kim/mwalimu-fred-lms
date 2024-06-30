@@ -222,6 +222,18 @@ span.logo > img{
 
 /*Notification Area Styles*/
 
+.notification-area .control-area .content .notification{
+    background: transparent;
+}
+
+.notification-area .control-area .content .notification:hover{
+    background: #26b170;
+}
+
+.notification-area .control-area .content .notification.selected{
+    background: #01377d;
+}
+
 .notification-area .content-area .header{
     background: #01377d;
 }

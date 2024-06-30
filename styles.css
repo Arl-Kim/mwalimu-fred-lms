@@ -220,6 +220,29 @@ span.logo > img{
     color: #01377d !important;
 }
 
+/*Notification Area Styles*/
+
+.notification-area .content-area .header{
+    background: #01377d;
+}
+
+.header .subject-container{
+    color: #26b170;
+    font-weight: 700;
+}
+
+.header .timestamp{
+    color: #7ed348 !important;
+}
+
+.notification-area .content-area .content{
+    color: #01377d;
+}
+
+.notification-area .content-area .content table{
+    color: #01377d;
+}
+
 /*Introduction Section Styles*/
 
 .section-item{

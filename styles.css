@@ -605,12 +605,13 @@ ul.teachers li span, .category-content span{
     color: #7ed348 !important;
 }
 
-div.alert:nth-child(7),
-div.alert:nth-child(8),
-div.box:nth-child(3),
-div.box:nth-child(5),
-div.box:nth-child(6),
-div.box:nth-child(9){
+
+#page-admin-index div.alert:nth-child(7),
+#page-admin-index div.alert:nth-child(8),
+#page-admin-index div.box:nth-child(3),
+#page-admin-index div.box:nth-child(5),
+#page-admin-index div.box:nth-child(6),
+#page-admin-index div.box:nth-child(9){
     display: none !important;
 }
 

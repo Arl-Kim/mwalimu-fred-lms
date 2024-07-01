@@ -629,9 +629,20 @@ ul.teachers li span, .category-content span{
 /***RESPONSIVE DESIGN BREAKPOINTS***/
 
 @media (max-width: 768px){
+
     .drawercontent .list-group a.list-group-item:nth-child(2),
     .drawercontent .list-group a.list-group-item:nth-child(3){
         display: none !important;
+    }
+
+    .nouns-examples .examples-list{
+        gap: 20px;
+    }
+
+    .common-proper .examples-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 }
 
@@ -657,5 +668,15 @@ ul.teachers li span, .category-content span{
 
     .for-parents .enroll-steps .step p{
         text-align: center !important;
+    }
+
+    .nouns-examples .examples-list{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
+    .common-proper .examples-list{
+        display: flex !important;
+        flex-wrap: wrap !important;
     }
 }

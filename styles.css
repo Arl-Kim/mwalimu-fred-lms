@@ -448,7 +448,28 @@ span.logo > img{
     text-align: center;
 }
 
-.donate-request button{
+.donate-request #donationForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-request #donationForm label{
+    color: #26b170;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.donate-request #donationForm input{
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #7ed348 !important;
+    font-weight: 700;
+}
+
+.donate-request #donationForm button{
     background: #01377d;
     color: #7ed348 !important;
     padding: 20px 40px;
@@ -458,12 +479,12 @@ span.logo > img{
     transition: all 400ms ease-in-out;
 }
 
-.donate-request button:hover{
+.donate-request #donationForm button:hover{
     background: #7ed348;
     color: #01377d !important;
 }
 
-.donate-request button i{
+.donate-request #donationForm button i{
     font-size: 30px;
 }
 

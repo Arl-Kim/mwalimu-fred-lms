@@ -74,5 +74,11 @@
     <p>
         Accessing Mwalimu Fred Online is completely free to ensure every child can benefit from quality education. However, running and maintaining this platform requires significant resources. We rely on the generosity of individuals like you to keep our programs running smoothly. If you are able and willing to help, please consider making a donation. Your support will help us continue providing exceptional educational experiences to students and enable us to expand our offerings. Every contribution, no matter the size, makes a difference. Thank you for your support!
     </p>
-    <button class="intaSendPayButton" data-amount="10" data-currency="KES">Donate Now <i class="fa-solid fa-circle-dollar-to-slot"></i></button>     
+    <form id="donationForm">
+        <label for="amount">Enter Amount (KES)</label>
+        <input type="number" id="amount" min="0" max="150000" step="1" required>
+        <button type="submit" class="intaSendPayButton" id="intasend_pay" data-amount="" data-currency="KES">
+            Donate Now <i class="fa-solid fa-circle-dollar-to-slot"></i>
+        </button>
+    </form>
 </div>

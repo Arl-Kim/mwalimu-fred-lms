@@ -495,46 +495,50 @@ span.logo > img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
-.contact-us a:nth-child(1){
-    background: #7ed348;
+.contact-us #send_mail{
+    background: #009dd1;
     color: #01377d !important;
     font-weight: 700;
     padding: 20px 30px;
     border-radius: 10px;
+    margin-bottom: 20px;
     transition: all 400ms ease-in-out;
 }
 
-.contact-us a:nth-child(1):hover{
-    background: #26b170;
-    color: #01377d !important;
+.contact-us #send_mail:hover{
+    background: #01377d;
+    color: #7ed348 !important;
 }
 
-.contact-us a:nth-child(2){
+.contact-us #call_inquiries{
     background: #26b170;
     color: #01377d !important;
     font-weight: 700;
     padding: 20px 50px;
     border-radius: 10px;
+    margin-bottom: 20px;
     transition: all 400ms ease-in-out;
 }
 
-.contact-us a:nth-child(2):hover{
+.contact-us #call_inquiries:hover{
     background: #7ed348;
     color: #01377d !important;
 }
 
-.contact-us a:nth-child(3){
-    background: #26b170;
-    color: #01377d !important;
+.contact-us #chat_wa{
+    background: #01377d;
+    color: #7ed348 !important;
     font-weight: 700;
     padding: 20px 50px;
     border-radius: 10px;
+    margin-bottom: 20px;
     transition: all 400ms ease-in-out;
 }
 
-.contact-us a:nth-child(3):hover{
+.contact-us #chat_wa:hover{
     background: #7ed348;
     color: #01377d !important;
 }

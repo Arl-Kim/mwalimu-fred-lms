@@ -498,12 +498,17 @@ span.logo > img{
     margin-top: 50px;
 }
 
+.contact-us a i{
+    font-size: 20px;
+}
+
 .contact-us #send_mail{
     background: #009dd1;
     color: #01377d !important;
     font-weight: 700;
     padding: 20px 30px;
     border-radius: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
     transition: all 400ms ease-in-out;
 }
@@ -540,6 +545,21 @@ span.logo > img{
 
 .contact-us #chat_wa:hover{
     background: #7ed348;
+    color: #01377d !important;
+}
+
+.contact-us #chat_wa i{
+    font-size: 28px;
+    position: relative;
+    top: 4px;
+    transition: all 400ms ease-in-out;
+}
+
+.contact-us #chat_wa i:hover{
+    color: #01377d !important;
+}
+
+.contact-us #chat_wa:hover i{
     color: #01377d !important;
 }
 

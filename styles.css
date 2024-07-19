@@ -36,7 +36,7 @@ div, button, select{
     border-radius: 5px !important;
 }
 
-h1, h2, h3, h4, h5, p{
+h1, h2, h3, h4, h5, p, ol, ul{
     color: #01377d !important;
 }
 
@@ -612,6 +612,15 @@ span.logo > img{
 
 .common-proper p{
     margin-top: 20px;
+}
+
+.singular-plural h6{
+    color: #01377d !important;
+    margin-top: 20px;
+}
+
+.singular-plural ol li{
+    margin-bottom: 10px;
 }
 
 /*Activity Button*/

@@ -629,6 +629,12 @@ span.logo > img{
     margin-top: 20px;
 }
 
+.integer-operations img{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    margin: auto;
+}
+
 /*Activity Button*/
 
 .activity-information button{

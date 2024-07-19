@@ -623,6 +623,12 @@ span.logo > img{
     margin-bottom: 10px;
 }
 
+/*Mathematics Course Style*/
+
+.number-line h6{
+    margin-top: 20px;
+}
+
 /*Activity Button*/
 
 .activity-information button{

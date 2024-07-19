@@ -643,6 +643,10 @@ span.logo > img{
     font-size: 32px;
 }
 
+.integers-exercise-one .underline{
+    text-decoration: underline;
+}
+
 /*Activity Button*/
 
 .activity-information button{

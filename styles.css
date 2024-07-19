@@ -610,6 +610,10 @@ span.logo > img{
     gap: 20px;
 }
 
+.common-proper p{
+    margin-top: 20px;
+}
+
 /*Activity Button*/
 
 .activity-information button{

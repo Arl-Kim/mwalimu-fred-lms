@@ -635,6 +635,14 @@ span.logo > img{
     margin: auto;
 }
 
+.integer-operations .giant-text{
+    font-size: 42px;
+}
+
+.integer-operations .semi-giant-text{
+    font-size: 32px;
+}
+
 /*Activity Button*/
 
 .activity-information button{

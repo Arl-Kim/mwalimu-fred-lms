@@ -346,6 +346,15 @@ span.logo > img{
     align-items: center;
 }
 
+.about-section .management .manager .manager-left .manager-img img{
+    box-shadow: 0 0 5px #7ed348;
+    transition: all 400ms ease-in-out;
+}
+
+.about-section .management .manager .manager-left .manager-img img:hover{
+    box-shadow: 0 0 10px #7ed348;
+}
+
 .about-section .management .manager .manager-left .manager-title h5{
     color: #26b170 !important;
     text-align: center;

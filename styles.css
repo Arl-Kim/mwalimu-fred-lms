@@ -861,6 +861,13 @@ ul.teachers li span, .category-content span{
         display: none !important;
     }
 
+    .about-section .management .manager{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
     .nouns-examples .examples-list{
         gap: 20px;
     }

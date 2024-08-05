@@ -356,6 +356,24 @@ span.logo > img{
     text-align: center;
 }
 
+.about-section .management .manager .manager-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section .management .manager .manager-right .manager-desc p{
+    text-align: justify;
+}
+
+.about-section .management .manager .manager-right .manager-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /*For Parents Section Styles*/
 
 .for-parents{

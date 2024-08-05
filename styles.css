@@ -913,3 +913,15 @@ ul.teachers li span, .category-content span{
         flex-wrap: wrap !important;
     }
 }
+
+@media (max-width: 391px){
+    .about-section .management .manager .manager-right .manager-links a{
+        font-weight: 700;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+
+    .about-section .management .manager .manager-right .manager-links a i{
+        font-size: 24px;
+    }
+}

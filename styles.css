@@ -321,6 +321,17 @@ span.logo > img{
     margin-bottom: 40px;
 }
 
+.about-section .management{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section .management h2{
+    text-align: center;
+}
+
 /*For Parents Section Styles*/
 
 .for-parents{
@@ -623,7 +634,7 @@ span.logo > img{
     margin-bottom: 10px;
 }
 
-/*Mathematics Course Style*/
+/*Mathematics Course Styles*/
 
 .number-line h6{
     margin-top: 20px;

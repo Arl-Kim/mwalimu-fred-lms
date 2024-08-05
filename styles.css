@@ -374,6 +374,36 @@ span.logo > img{
     align-items: center;
 }
 
+.about-section .management .manager .manager-right .manager-links a{
+    background: #01377d;
+    color: #7ed348 !important;
+    font-weight: 700;
+    padding: 15px 45px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 400ms ease-in-out;
+}
+    
+.about-section .management .manager .manager-right .manager-links a:hover{
+    background: #7ed348;
+    color: #01377d !important;
+}
+    
+.about-section .management .manager .manager-right .manager-links a i{
+    font-size: 28px;
+    position: relative;
+    top: 4px;
+    transition: all 400ms ease-in-out;
+}
+    
+.about-section .management .manager .manager-right .manager-links a i:hover{
+    color: #01377d !important;
+}
+    
+.about-section .management .manager .manager-right .manager-links a:hover i{
+    color: #01377d !important;
+}
+
 /*For Parents Section Styles*/
 
 .for-parents{

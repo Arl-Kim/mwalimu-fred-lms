@@ -580,6 +580,25 @@ span.logo > img{
     font-size: 30px;
 }
 
+/*Volunteer Teachers Section Styles*/
+
+.volunteer-teachers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.volunteer-teachers .volunteer-intro h4{
+    color: #7ed348 !important;
+    text-align: center;
+}
+
+.volunteer-teachers .volunteer-intro p{
+    text-align: center;
+}
+
 /*Contact Us Section Styles*/
 
 .contact-us{

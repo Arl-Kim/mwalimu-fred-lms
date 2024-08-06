@@ -48,4 +48,22 @@ document.getElementById('volu_registration').addEventListener('submit', function
     } else {
         document.getElementById('teachingLevelError').innerText = '';
     }
+
+    // Validate level of education
+    const educationLevel = document.getElementById('education_level').value;
+    if (educationLevel === '') {
+        isValid = false;
+        document.getElementById('educationLevelError').innerText = 'Please indicate your level of education!';
+    } else {
+        document.getElementById('educationLevelError').innerText = '';
+    }
+
+    // Validate teaching experience
+    const experience = document.getElementById('experience').value;
+    if (experience === '' || isNaN(experience) || experience < 0) {
+        isValid = false;
+        document.getElementById('experienceError').innerText = 'Please enter a valid number of years.';
+    } else {
+        document.getElementById('experienceError').innerText = '';
+    }
 });

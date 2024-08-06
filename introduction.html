@@ -118,7 +118,7 @@
     <div class="volunteer-intro">
         <h4>Are You A Passionate Educator Looking To Volunteer ?</h4>
         <p>
-            We are always looking for professional teachers to join us at Mwalimu Fred Online. By contributing your expertise and time, you can make a significant impact on students' lives and help shape the future of education in Kenya. If you are dedicated to fostering a love for learning and supporting our mission, please fill out the registration form below to get started.
+            We are always looking for professional teachers to join us at Mwalimu Fred Online. Contribute your expertise and time, make a significant impact on students' lives and help shape the future of education in Kenya. If you are dedicated to fostering a love for learning and supporting our mission, please fill out the registration form below to get started.
         </p>
     </div>
     <div class="volunteer-registration-form">
@@ -154,8 +154,8 @@
             <label for="grade9">Grade 9</label><br>
             <small id="teachingLevelError" class="error-message"></small><br>
 
-            <label for="education-level">Level of Education</label><br>
-            <select id="education-level">
+            <label for="education_level">Level of Education</label><br>
+            <select id="education_level">
                 <option value="secondary">Secondary</option>
                 <option value="diploma">Diploma</option>
                 <option value="degree">Degree</option>
@@ -163,9 +163,24 @@
                 <option value="phd">PHD</option>
             </select><br>
             <small id="educationLevelError" class="error-message"></small><br>
+
+            <label for="experience">Teaching Experience (years)</label><br>
+            <input type="number" id="experience" min="0" placeholder="enter number of years"><br>
+            <small id="experienceError" class="error-message"></small><br>
+
+            <label>TSC Registration Status</label><br>
+            <input type="radio" id="tsc_active" name="tsc_status" value="active">
+            <label for="tsc_active">Active</label><br>
+            <input type="radio" id="tsc_inactive" name="tsc_status" value="inactive">
+            <label for="tsc_inactive">Inactive</label><br>
+            <small id="tscStatusError" class="error-message"></small><br>
+
+            <label for="current_institution">Current Institution</label><br>
+            <input type="text" id="current_institution" placeholder="enter your current institution"><br>
+            <small id="currentInstitutionError" class="error-message"></small><br>
     
             <button type="submit" id="submit_btn">
-                Submit Details <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                Submit Details <i class="fa-solid fa-share"></i>
             </button>
         </form>
     </div>

@@ -30,4 +30,22 @@ document.getElementById('volu_registration').addEventListener('submit', function
     } else {
         document.getElementById('emailError').innerText = '';
     }
+
+    // Validate subjects
+    const subjects = document.getElementById('subjects').value;
+    if (subjects === '') {
+        isValid = false;
+        document.getElementById('subjectsError').innerText = 'You did not indicate the subject!';
+    } else {
+        document.getElementById('subjectsError').innerText = '';
+    }
+
+    // Validate level of teaching
+    const teachingLevel = document.querySelector('input[name="teaching-level"]:checked');
+    if (!teachingLevel) {
+        isValid = false;
+        document.getElementById('teachingLevelError').innerText = 'Please select your teaching level!';
+    } else {
+        document.getElementById('teachingLevelError').innerText = '';
+    }
 });

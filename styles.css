@@ -587,7 +587,7 @@ span.logo > img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .volunteer-teachers .volunteer-intro h4{
@@ -597,6 +597,48 @@ span.logo > img{
 
 .volunteer-teachers .volunteer-intro p{
     text-align: center;
+}
+
+.volunteer-teachers .volunteer-registration-form form{
+    text-align: center;
+}
+
+.volunteer-teachers .volunteer-registration-form form label{
+    font-weight: 700;
+}
+
+.volunteer-teachers .volunteer-registration-form form input{
+    color: #7ed348 !important;
+    padding: 10px 40px;
+    border: 3px solid #26b170 !important;
+    border-radius: 10px;
+    transition: all 400ms ease-in-out;
+}
+
+.volunteer-teachers .volunteer-registration-form form input:focus{
+    color: #7ed348 !important;
+    outline: none;
+    border: 3px solid #fff !important;
+}
+
+.volunteer-teachers .volunteer-registration-form form small{
+    color: #ff0000;
+    font-size: 10px;
+}
+
+.volunteer-teachers .volunteer-registration-form form button{
+    background: #01377d;
+    color: #7ed348 !important;
+    padding: 20px 40px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none !important;
+    transition: all 400ms ease-in-out;
+}
+
+.volunteer-teachers .volunteer-registration-form form button:hover{
+    background: #7ed348;
+    color: #01377d !important;
 }
 
 /*Contact Us Section Styles*/

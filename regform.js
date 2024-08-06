@@ -3,10 +3,17 @@ document.getElementById('volu_registration').addEventListener('submit', function
     let isValid = true;
 
     // Validate name
-    const name = document.getElementById('name').value;
+    const name = document.getElementById('name').value.trim();
+    const nameParts = name.split(' ');
     if (name === '') {
         isValid = false;
-        document.getElementById('nameError').innerText = 'You did not enter your name!';
+        document.getElementById('nameError').innerText = 'Your name is required!';
+    } else if (nameParts.length < 2) {
+        isValid = false;
+        document.getElementById('nameError').innerText = 'Please enter at least two names (first and last name)!.';
+    } else if (nameParts.some(part => part.length < 3)) {
+        isValid = false;
+        document.getElementById('nameError').innerText = 'Please enter a valid name (at least 3 letters long)!';
     } else {
         document.getElementById('nameError').innerText = '';
     }

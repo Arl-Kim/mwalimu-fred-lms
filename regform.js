@@ -124,3 +124,17 @@ document.getElementById('email').addEventListener('input', function() {
         document.getElementById('emailError').innerText = '';
     }
 });
+
+document.getElementById('subjects').addEventListener('change', function() {
+    if (this.value !== '') {
+        document.getElementById('subjectsError').innerText = '';
+    }
+});
+
+document.querySelectorAll('input[name="teaching-level"]').forEach(function(input) {
+    input.addEventListener('change', function() {
+        if (document.querySelector('input[name="teaching-level"]:checked')) {
+            document.getElementById('teachingLevelError').innerText = '';
+        }
+    });
+});

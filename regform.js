@@ -2,6 +2,12 @@ document.getElementById('volu_registration').addEventListener('submit', function
     event.preventDefault();
     let isValid = true;
 
+    // Clear previous success message
+    const successMessage = document.getElementById('successMessage');
+    if (successMessage) {
+        successMessage.remove();
+    }
+
     // Validate name
     const name = document.getElementById('name').value.trim();
     const nameParts = name.split(' ');
@@ -86,7 +92,19 @@ document.getElementById('volu_registration').addEventListener('submit', function
     }
 
     if (isValid) {
-        alert('Form submitted successfully!');
-        this.submit();
+        const form = document.getElementById('volu_registration');
+        const message = document.createElement('div');
+        message.id = 'successMessage';
+        message.innerText = 'Your Details Have Been Sent Successfully';
+        message.style.color = '#01377d';
+        message.style.marginTop = "20px";
+        message.style.fontSize = "14px";
+        message.style.fontWeight = "700";
+        form.appendChild(message);
+
+        setTimeout(function() {
+            form.reset();
+            message.remove();
+        }, 5000);
     }
 });

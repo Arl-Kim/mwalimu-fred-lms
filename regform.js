@@ -66,4 +66,22 @@ document.getElementById('volu_registration').addEventListener('submit', function
     } else {
         document.getElementById('experienceError').innerText = '';
     }
+
+    // Validate TSC registration status
+    const tscStatus = document.querySelector('input[name="tsc_status"]:checked');
+    if (!tscStatus) {
+        isValid = false;
+        document.getElementById('tscStatusError').innerText = 'What is your TSC registration status!?';
+    } else {
+        document.getElementById('tscStatusError').innerText = '';
+    }
+
+    // Validate current institution
+    const currentInstitution = document.getElementById('current_institution').value;
+    if (currentInstitution === '') {
+        isValid = false;
+        document.getElementById('currentInstitutionError').innerText = 'Kindly indicate where you are teaching at the moment!.';
+    } else {
+        document.getElementById('currentInstitutionError').innerText = '';
+    }
 });

@@ -108,3 +108,19 @@ document.getElementById('volu_registration').addEventListener('submit', function
         }, 5000);
     }
 });
+
+// Real-time validation
+document.getElementById('name').addEventListener('input', function() {
+    const name = this.value.trim();
+    const nameParts = name.split(' ');
+    if (name !== '' && nameParts.length >= 2 && !nameParts.some(part => part.length < 3)) {
+        document.getElementById('nameError').innerText = '';
+    }
+});
+
+document.getElementById('email').addEventListener('input', function() {
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (this.value !== '' && emailPattern.test(this.value)) {
+        document.getElementById('emailError').innerText = '';
+    }
+});

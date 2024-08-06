@@ -138,3 +138,29 @@ document.querySelectorAll('input[name="teaching-level"]').forEach(function(input
         }
     });
 });
+
+document.getElementById('education_level').addEventListener('change', function() {
+    if (this.value !== '') {
+        document.getElementById('educationLevelError').innerText = '';
+    }
+});
+
+document.getElementById('experience').addEventListener('input', function() {
+    if (this.value !== '' && !isNaN(this.value) && this.value >= 0) {
+        document.getElementById('experienceError').innerText = '';
+    }
+});
+
+document.querySelectorAll('input[name="tsc_status"]').forEach(function(input) {
+    input.addEventListener('change', function() {
+        if (document.querySelector('input[name="tsc_status"]:checked')) {
+            document.getElementById('tscStatusError').innerText = '';
+        }
+    });
+});
+
+document.getElementById('current_institution').addEventListener('input', function() {
+    if (this.value !== '') {
+        document.getElementById('currentInstitutionError').innerText = '';
+    }
+});

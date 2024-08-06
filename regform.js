@@ -13,7 +13,7 @@ document.getElementById('volu_registration').addEventListener('submit', function
         document.getElementById('nameError').innerText = 'Please enter at least two names (first and last name)!.';
     } else if (nameParts.some(part => part.length < 3)) {
         isValid = false;
-        document.getElementById('nameError').innerText = 'Please enter a valid name (at least 3 letters long)!';
+        document.getElementById('nameError').innerText = 'Please enter a valid name (at least 3 letters long per name)!';
     } else {
         document.getElementById('nameError').innerText = '';
     }
@@ -35,7 +35,7 @@ document.getElementById('volu_registration').addEventListener('submit', function
     const subjects = document.getElementById('subjects').value;
     if (subjects === '') {
         isValid = false;
-        document.getElementById('subjectsError').innerText = 'You did not indicate the subject!';
+        document.getElementById('subjectsError').innerText = 'You did not indicate your subject!';
     } else {
         document.getElementById('subjectsError').innerText = '';
     }
@@ -62,7 +62,7 @@ document.getElementById('volu_registration').addEventListener('submit', function
     const experience = document.getElementById('experience').value;
     if (experience === '' || isNaN(experience) || experience < 0) {
         isValid = false;
-        document.getElementById('experienceError').innerText = 'Please enter a valid number of years.';
+        document.getElementById('experienceError').innerText = 'Please enter a valid number of years!';
     } else {
         document.getElementById('experienceError').innerText = '';
     }
@@ -80,7 +80,7 @@ document.getElementById('volu_registration').addEventListener('submit', function
     const currentInstitution = document.getElementById('current_institution').value;
     if (currentInstitution === '') {
         isValid = false;
-        document.getElementById('currentInstitutionError').innerText = 'Kindly indicate where you are teaching at the moment!.';
+        document.getElementById('currentInstitutionError').innerText = 'Kindly indicate where you are teaching at the moment!';
     } else {
         document.getElementById('currentInstitutionError').innerText = '';
     }

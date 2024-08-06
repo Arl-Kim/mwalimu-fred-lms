@@ -1,3 +1,7 @@
+(function(){
+    emailjs.init('NVBnrBxRIIRg9DVIP');
+})();
+
 document.getElementById('volu_registration').addEventListener('submit', function(event) {
     event.preventDefault();
     let isValid = true;
@@ -92,20 +96,36 @@ document.getElementById('volu_registration').addEventListener('submit', function
     }
 
     if (isValid) {
-        const form = document.getElementById('volu_registration');
-        const message = document.createElement('div');
-        message.id = 'successMessage';
-        message.innerText = 'Your Details Have Been Sent Successfully';
-        message.style.color = '#01377d';
-        message.style.marginTop = "20px";
-        message.style.fontSize = "14px";
-        message.style.fontWeight = "700";
-        form.appendChild(message);
+        const formData = {
+            name: name,
+            email: email,
+            subjects: subjects,
+            teachingLevel: teachingLevel.value,
+            educationLevel: educationLevel,
+            experience: experience,
+            tscStatus: tscStatus.value,
+            currentInstitution: currentInstitution
+        };
 
-        setTimeout(function() {
-            form.reset();
-            message.remove();
-        }, 5000);
+        emailjs.send('service_vioa6tm', 'template_e3gkf4s', formData)
+            .then(function(response) {
+                const form = document.getElementById('volu_registration');
+                const message = document.createElement('div');
+                message.id = 'successMessage';
+                message.innerText = 'Your Details Have Been Sent Successfully';
+                message.style.color = '#01377d';
+                message.style.marginTop = "20px";
+                message.style.fontSize = "14px";
+                message.style.fontWeight = "700";
+                form.appendChild(message);
+
+                setTimeout(function() {
+                    form.reset();
+                    message.remove();
+                }, 5000);
+            }, function(error) {
+                console.log('FAILED...', error);
+            });
     }
 });
 

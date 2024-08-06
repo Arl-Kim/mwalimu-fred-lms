@@ -600,6 +600,8 @@ span.logo > img{
 }
 
 .volunteer-teachers .volunteer-registration-form form{
+    background-image: linear-gradient(#fff, #7ed348, #7ed348, #fff);
+    padding: 40px 200px;
     text-align: center;
 }
 
@@ -607,15 +609,17 @@ span.logo > img{
     font-weight: 700;
 }
 
-.volunteer-teachers .volunteer-registration-form form input{
+.volunteer-teachers .volunteer-registration-form form input,
+.volunteer-teachers .volunteer-registration-form form select{
     color: #7ed348 !important;
     padding: 10px 40px;
-    border: 3px solid #26b170 !important;
+    border: 3px solid #01377d !important;
     border-radius: 10px;
     transition: all 400ms ease-in-out;
 }
 
-.volunteer-teachers .volunteer-registration-form form input:focus{
+.volunteer-teachers .volunteer-registration-form form input:focus,
+.volunteer-teachers .volunteer-registration-form form select:focus{
     color: #7ed348 !important;
     outline: none;
     border: 3px solid #fff !important;

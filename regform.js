@@ -84,4 +84,9 @@ document.getElementById('volu_registration').addEventListener('submit', function
     } else {
         document.getElementById('currentInstitutionError').innerText = '';
     }
+
+    if (isValid) {
+        alert('Form submitted successfully!');
+        this.submit();
+    }
 });

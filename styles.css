@@ -1,4 +1,8 @@
 /*General Styles*/
+html,body{
+    scroll-behavior: smooth !important;
+}
+
 *:focus{
     box-shadow: none !important;
     border: 1px solid #01377d !important;

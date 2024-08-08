@@ -630,6 +630,7 @@ span.logo > img{
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    overflow-x: hidden !important;
 }
 
 .volunteer-teachers .volunteer-intro h4{
@@ -989,10 +990,6 @@ ul.teachers li span, .category-content span{
         margin-bottom: 40px;
     }
 
-    .volunteer-teachers .volunteer-registration-form form{
-        padding: 20px 40px;
-    }
-
     .nouns-examples .examples-list{
         gap: 20px;
     }
@@ -1056,5 +1053,9 @@ ul.teachers li span, .category-content span{
 
     .about-section .management .manager .manager-right .manager-links a i{
         font-size: 24px;
+    }
+
+    .volunteer-teachers .volunteer-registration-form form{
+        padding: 20px 40px;
     }
 }

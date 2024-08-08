@@ -294,6 +294,43 @@ span.logo > img{
     color: #7ed348;
 }
 
+.introduction-section .quick-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.introduction-section .quick-links a:nth-child(1){
+    background: #01377d;
+    color: #7ed348 !important;
+    padding: 10px 60px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all 400ms ease-in-out;
+}
+
+.introduction-section .quick-links a:nth-child(1):hover{
+    background: #009dd1;
+    color: #01377d !important;
+}
+
+.introduction-section .quick-links a:nth-child(2){
+    background: #01377d;
+    color: #7ed348 !important;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all 400ms ease-in-out;
+}
+
+.introduction-section .quick-links a:nth-child(2):hover{
+    background: #7ed348;
+    color: #01377d !important;
+}
+
 .introduction-section .intro-graphics{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

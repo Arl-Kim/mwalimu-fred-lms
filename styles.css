@@ -1,6 +1,7 @@
 /*General Styles*/
 html,body{
     scroll-behavior: smooth !important;
+    overflow-x: hidden !important;
 }
 
 *:focus{
@@ -988,6 +989,10 @@ ul.teachers li span, .category-content span{
         margin-bottom: 40px;
     }
 
+    .volunteer-teachers .volunteer-registration-form form{
+        padding: 20px 40px;
+    }
+
     .nouns-examples .examples-list{
         gap: 20px;
     }
@@ -1000,6 +1005,14 @@ ul.teachers li span, .category-content span{
 }
 
 @media (max-width: 520px){
+    .introduction-section .quick-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
     .introduction-section .intro-graphics{
         display: flex;
         gap: 30px;

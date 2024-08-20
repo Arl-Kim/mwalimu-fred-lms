@@ -822,6 +822,24 @@ span.logo > img{
     text-decoration: underline;
 }
 
+
+/*Pre-Technical Studies Course Styles*/
+
+.when-tables table{
+    background-color: #fff;
+}
+
+.when-tables th{
+    border-width: 1px;
+    border-color: rgb(152, 202, 62);
+    border-style: solid;
+}
+
+.when-tables td{
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: rgb(152, 202, 62);
+}
 /*Activity Button*/
 
 .activity-information button{

@@ -229,6 +229,29 @@ span.logo > img{
     color: #01377d !important;
 }
 
+/*Calendar Table Styles*/
+th.header, td.day{
+    color: #01377d !important;
+}
+
+td.day:hover{
+    cursor: pointer !important;
+    box-shadow: 0px 0px 5px #7ed348 !important;
+    border-radius: 5px;
+}
+
+.modal-header button:hover{
+    color: #01377d !important;
+}
+
+.modal-header button span{
+    color: #7ed348 !important;
+}
+
+.modal-header button span:hover{
+    color: #01377d !important;
+}
+
 /*Notification Area Styles*/
 
 .notification-area .control-area .content .notification{
@@ -891,30 +914,6 @@ span.logo > img{
     background: #7ed348 !important;
     color: #01377d !important;
 }
-
-/*Calendar Table Styles*/
-th.header, td.day{
-    color: #01377d !important;
-}
-
-td.day:hover{
-    cursor: pointer !important;
-    box-shadow: 0px 0px 5px #7ed348 !important;
-    border-radius: 5px;
-}
-
-.modal-header button:hover{
-    color: #01377d !important;
-}
-
-.modal-header button span{
-    color: #7ed348 !important;
-}
-
-.modal-header button span:hover{
-    color: #01377d !important;
-}
-
 
 /*Font Awesome Styles*/
 .fa{

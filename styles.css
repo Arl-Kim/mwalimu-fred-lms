@@ -288,6 +288,12 @@ td.day:hover{
     color: #01377d;
 }
 
+/*Announcements Styles*/
+
+.announcements{
+    font-size: 18px;
+}
+
 /*Introduction Section Styles*/
 
 .section-item{
@@ -902,6 +908,17 @@ td.day:hover{
     border-style: solid; 
     border-color: rgb(152, 202, 62);
 }
+
+/*Integrated Science Course Styles*/
+
+.science-tables{
+    color: #01377d;
+}
+
+.science-tables thead{
+    background: #26b170;
+}
+
 /*Activity Button*/
 
 .activity-information button{

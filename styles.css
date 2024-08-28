@@ -915,6 +915,10 @@ td.day:hover{
     color: #01377d;
 }
 
+.science-tables table{
+    border-color: #01377d;
+}
+
 .science-tables thead{
     background: #26b170;
 }

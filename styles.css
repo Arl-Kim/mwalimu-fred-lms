@@ -49,6 +49,10 @@ h6, button, input.btn{
     color: #26b170 !important;
 }
 
+h1, h2, h4, h5, h6{
+    text-transform: capitalize !important;
+}
+
 .alert-info{
     background-color: #97e7f5;
     color: #26b170;
@@ -888,6 +892,18 @@ td.day:hover{
 
 .integers-exercise-one .underline{
     text-decoration: underline;
+}
+
+.maths-tables{
+    color: #01377d;
+}
+
+.maths-tables table{
+    border-color: #01377d;
+}
+
+.maths-tables thead{
+    background: #009dd1;
 }
 
 

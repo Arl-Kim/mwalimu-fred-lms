@@ -41,6 +41,19 @@ document.getElementById('volu_registration').addEventListener('submit', function
         document.getElementById('emailError').innerText = '';
     }
 
+    // Validate phone
+    const phone = document.getElementById('phone').value;
+    const phonePattern = /^[0-9]\d{9,14}$/;
+    if (phone === '') {
+        isValid = false;
+        document.getElementById('phoneError').innerText = 'Please provide your phone number!';
+    } else if(!phonePattern.test(phone)) {
+        isValid = false;
+        document.getElementById('phoneError').innerText = 'Please enter a valid phone number!';
+    } else {
+        document.getElementById('phoneError').innerText = '';
+    }
+
     // Validate subjects
     const subjects = document.getElementById('subjects').value;
     if (subjects === '') {

@@ -361,6 +361,20 @@ td.day:hover{
 }
 
 .introduction-section .quick-links a:nth-child(2):hover{
+    background: #26b170;
+    color: #01377d !important;
+}
+
+.introduction-section .quick-links a:nth-child(3){
+    background: #01377d;
+    color: #7ed348 !important;
+    padding: 10px 60px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all 400ms ease-in-out;
+}
+
+.introduction-section .quick-links a:nth-child(3):hover{
     background: #7ed348;
     color: #01377d !important;
 }
@@ -1032,6 +1046,14 @@ ul.teachers li span, .category-content span{
 
 @media (max-width: 768px){
 
+    .introduction-section .quick-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
     .drawercontent .list-group a.list-group-item:nth-child(2),
     .drawercontent .list-group a.list-group-item:nth-child(3){
         display: none !important;
@@ -1056,14 +1078,6 @@ ul.teachers li span, .category-content span{
 }
 
 @media (max-width: 520px){
-    .introduction-section .quick-links{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        row-gap: 30px;
-    }
-
     .introduction-section .intro-graphics{
         display: flex;
         gap: 30px;

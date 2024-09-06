@@ -112,6 +112,7 @@ document.getElementById('volu_registration').addEventListener('submit', function
         const formData = {
             name: name,
             email: email,
+            phone: phone,
             subjects: subjects,
             teachingLevel: teachingLevel.value,
             educationLevel: educationLevel,
@@ -155,6 +156,13 @@ document.getElementById('email').addEventListener('input', function() {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (this.value !== '' && emailPattern.test(this.value)) {
         document.getElementById('emailError').innerText = '';
+    }
+});
+
+document.getElementById('phone').addEventListener('input', function() {
+    const phonePattern = /^[0-9]\d{9,14}$/;
+    if (this.value !== '' && phonePattern.test(this.value)) {
+        document.getElementById('phoneError').innerText = '';
     }
 });
 

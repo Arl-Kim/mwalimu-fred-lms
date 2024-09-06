@@ -436,6 +436,7 @@ td.day:hover{
 }
 
 .about-section .management .manager .manager-left .manager-img img{
+    height: 300px;
     box-shadow: 0 0 5px #7ed348;
     transition: all 400ms ease-in-out;
 }

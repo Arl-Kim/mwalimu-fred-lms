@@ -380,14 +380,17 @@ td.day:hover{
 }
 
 .introduction-section .intro-graphics{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px !important;
+    flex-wrap: wrap;
 }
 
 .introduction-section .intro-graphics img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 350px;
+    max-height: 350px;
     border-radius: 10px;
 }
 
@@ -1079,13 +1082,6 @@ ul.teachers li span, .category-content span{
 }
 
 @media (max-width: 520px){
-    .introduction-section .intro-graphics{
-        display: flex;
-        gap: 30px;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
 
     .introduction-section h2,
     .about-section h2,
